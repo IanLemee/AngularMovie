@@ -55,7 +55,6 @@ export class MovieCardComponent implements OnInit {
   }
 
   isOnWatchlist(movie: any): boolean {
-    // Verifica se o filme está na watchlist
     return this.watchListService.getWatchlist().some((m) => m.id === movie.id);
   }
 }

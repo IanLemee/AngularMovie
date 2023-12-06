@@ -23,7 +23,7 @@ export class WatchlistComponent {
   }
 
   markAsWatched(movie: any): void {
-    // Chame a função removeFromWatchlist para remover o filme da watchlist
+      // Call the removeFromWatchlist function to remove the movie from the watchlist
     this.watchlistService.removeFromWatchlist(movie);
   }
 }

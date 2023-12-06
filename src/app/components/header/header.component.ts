@@ -19,12 +19,10 @@ export class HeaderComponent {
     this.watchlistService.toggleWatchlistVisibility();
   }
 
-  // Adicione esta função para obter a visibilidade da watchlist
   isWatchlistVisible(): boolean {
     return this.watchlistService.isWatchlistVisible();
   }
 
-  // Adicione esta função para alternar a visibilidade da watchlist
   toggleWatchlistVisibility(): void {
     this.watchlistService.toggleWatchlistVisibility();
   }
