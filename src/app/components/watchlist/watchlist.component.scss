@@ -1,0 +1,72 @@
+/* watchlist.component.scss */
+
+.watchlist-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    background-color: #271e36; /* Defina a cor de fundo desejada */
+    z-index: 9999; /* Certifique-se de que o componente esteja acima de outros elementos */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+
+    .container-btn {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        
+        .close-button {
+            border: none;
+            background-color: transparent;
+    
+            img {
+                height: 20px;
+                width: 20px;
+            } 
+    }
+    
+}
+
+    ul {
+        list-style-type: none;
+        margin-top: 2rem;
+    }
+
+    img {
+        height: 15rem;
+        width: 10rem;
+    }
+  }
+
+  .movie-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    span {
+        font-size: 14;
+        font-weight: 700;
+    }
+
+    button {
+        border: none;
+        background-color: transparent;
+
+        img {
+            height: 20px;
+            width: 20px;
+        }
+    }
+  }
+  
+  /* Adicione outros estilos conforme necessário */
+  

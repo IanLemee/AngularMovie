@@ -12,4 +12,7 @@
 html, body {
     background-color: $background;
     color: $font-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -1,7 +1,28 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { MoviePageComponent } from './pages/movie-page/movie-page.component';
+import { HomeComponent } from './pages/home/home.component';
+import { WatchlistComponent } from './components/watchlist/watchlist.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  // {
+  //   path: 'watchlist',
+  //   component: WatchlistComponent
+  // },
+  {
+    path: ' ',
+    pathMatch: 'full',
+    redirectTo: 'home'
+  },
+  {
+    path: 'movie/:id', 
+    component: MoviePageComponent,
+  },
+  {
+    path: 'home',
+    component: HomeComponent,
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
