@@ -12,8 +12,6 @@
       <h3>Duration: {{ movieDetails.duration }} </h3>
       <div class="trailer">
         <iframe
-          width="560"
-          height="315"
           [src]="getEmbedUrl(movieDetails.trailer) | safe"
           frameborder="0"
           allowfullscreen
