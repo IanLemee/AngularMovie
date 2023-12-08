@@ -1,7 +1,6 @@
 @import 'variables.scss';
 
 .container {
-<<<<<<< HEAD
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,17 +11,6 @@
   position: fixed;
   width: 100%;
   z-index: 100;
-=======
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    padding: 1.25rem 1.9rem;
-    background-color: transparent;
-    text-align: center;
-    position: fixed;
-    width: 100%;
->>>>>>> 7b81db7 (first commit)
   
     .container_title {
       a {
@@ -55,13 +43,10 @@
         }
       }
     }
-<<<<<<< HEAD
   }
 
   @media screen and (max-width: 768px) {
     .container {
       flex-direction: column;
     }
-=======
->>>>>>> 7b81db7 (first commit)
   }

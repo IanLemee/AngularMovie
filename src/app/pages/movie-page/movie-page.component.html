@@ -1,6 +1,4 @@
-<!-- movie-page.component.html -->
-
-<div class="container" *ngIf="movieDetails">
+<div class="container movie-details-page" *ngIf="movieDetails">
   <div class="container-image">
     <img [src]="movieDetails.image" alt="{{ movieDetails.title }}">
     <p>{{ movieDetails.date }}</p>
